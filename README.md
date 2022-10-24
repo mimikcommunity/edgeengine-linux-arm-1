@@ -16,17 +16,29 @@ For those who are new to edgeEngine, we recommend reading about the overall capa
 
 Please also be advised that different versions of edgeEngine are available for different CPU architectures and OS platforms. Please see [here](https://github.com/edgeEngine)
 
+
+
+### 💡 Goal of edgeEngine for Linux on ARM
+< Add the goal or objective for edgeEngine for Linux on ARM >
+
+
+
+
+## 🖥️ Product Descritpion 
+
 The edgeEngine 3.0.x Runtime for ARM CPU architecture is a new generation of edgeEngine with a new set of features and capabilities as described in the followings:
 
  - Supporting WebAssembly serverless microservice runtime environment.
  - Supporting wasi_snapshot_preview1 in WebAssembly serverless microservice runtime environment
  - Supporting Prometheus metrics endpoint. (observability)
 
+### 🔥 New featues added [Date]
  Besides the above-mentioned new features, we also improved the following existing features as described below:
  - Global discovery
  - Feedbacks for API errors
  - Response time in JavaScript serverless microservice runtime environment enabling a serverless environment for different cores of ARM CPU.
  
+### ✔️ Overall usability of edgeEngine for Linux on ARM
  By using existing and the new edgeEngine's capabilities, embedded platform developers will be able to: 
  
  - Develop Multi-thread programs across all cores.
@@ -41,8 +53,7 @@ The edgeEngine 3.0.x Runtime for ARM CPU architecture is a new generation of edg
  - Enable microservice-to-microservice communication running on CPU cores or between PCBs.
  - RESTful API instead of RPC API on restricted ARM cortex (i.e., R5F)
 
- ## Compatibility
-
+ ## 🔍 Compatibility
 
 
 | CPU Architecture | CPU Type   | Operating System| system |
@@ -52,15 +63,15 @@ The edgeEngine 3.0.x Runtime for ARM CPU architecture is a new generation of edg
 |  ARMv8-A| Cortex-A34, Cortex-A35, Cortex-A53, Cortex-A57, Cortex-A72, Cortex-A73| NVIDIA Linux | https://github.com/edgeEngine/edgeengine-linux-arm| 
 |ARMv8-A  |  Cortex-A53, Cortex-A72       | QNX 7.1  | https://github.com/edgeEngine/edgeengine-embedded-os | 
 
-## Related
+### 📄 Related
 
 What are the related (internal and external) Sources ? 
 - [QNX](https://www.qnx.com/developers/docs/)
 - [Ubuntu](https://ubuntu.com/desktop/developers)
 
-## How does it work ?
+## 🖥️ How does it work ?
 
-
+<missing this section>
 
 
 ## Documentation 
